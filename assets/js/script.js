@@ -34,4 +34,4 @@ newProjectBtn.on("click",function(event){
     newTableRow.append(lastTd);
     projectTable.append(newTableRow);
 
-})
+});
