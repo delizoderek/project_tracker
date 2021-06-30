@@ -25,7 +25,7 @@ newProjectBtn.on("click",function(event){
     }
     let lastTd = $("<td>");
     let delBtn = $("<button>");
-    delBtn.text = "X";
+    delBtn.text ("X");
     delBtn.on("click",function(event){
         event.preventDefault();
         console.log("You clicked a button");
@@ -33,5 +33,4 @@ newProjectBtn.on("click",function(event){
     lastTd.append(delBtn);
     newTableRow.append(lastTd);
     projectTable.append(newTableRow);
-
 });
